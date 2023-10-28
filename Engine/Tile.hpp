@@ -9,8 +9,6 @@ using namespace sf;
 
 class Tile : public Rect<float>::Rect {
     RectangleShape m_Shape;
-private:
-    bool MousePosInside(Vector2f pos);
 public:
     Tile();
     Tile(int x, int y, int width, int height, const Color &color);
